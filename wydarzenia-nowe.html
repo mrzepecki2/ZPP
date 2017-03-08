@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--------------------->
+		<title>ZPP</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />	
+		<meta charset="UTF-8">
+
+		<!--------------------->
+		<!--Czcionka-->
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,700,900|Open+Sans:400,800,700,600&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<!--JQuery-->
+		<script src="js/jquery.js"></script>
+		
+		<!--Bootstrap-->
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		
+		<!--CSS/JS-->
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<script type="text/javascript" src="js/main.js"></script>
+
+		
+		<script type="text/javascript" src="js/underscore.js"></script>
+		<script type="text/javascript" src="js/moment.js"></script>
+		<script type="text/javascript" src="js/clndr.js"></script>
+		
+		<!--------------------->
+		
+		
+		
+		
+	</head>
+	<BODY>
+		<SECTION id="page_wrapper">
+			<header>
+				<section id="top">
+					<div class ="container">
+						<div class="col-xs-12 menu-top-div">
+							<div class="menu-top-image ">
+								<img src="images/menu.png"/>
+							</div>
+							<ul class="menu-top">
+								<li class="active rozwijane"><a href="#">ZPP <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+									<ul class="menu-top_lv2">
+										<li><a href="#">manifest</a></li>
+										<li><a href="#">władze</a></li>
+										<li><a href="#">organizacje</a></li>
+									</ul>
+								</li>
+								<li><a href="#">AKTUALNOŚCI</a></li>
+								<li><a href="#">Materiały</a></li>
+								<li><a href="#">Projekty</a></li>
+								<li><a href="#">Wydarzenia</a></li>
+								<li><a href="#">Kontakt</a></li>
+							</ul>
+						</div>
+						<div class="rejestracja">
+							<a class="rejestracja_1 transition_0_5" href="#">Dołącz do ZPP</a>
+							<a class="rejestracja_2 transition_0_5" href="#"><img src="images/koperta.png" alt="newsletter_ico"/>Newsletter ZPP</a>
+						</div>
+					</div>
+					
+				</section>
+				<section id="lower">
+					<div class ="container">
+						<div class="col-xs-4 logo">
+							<img src="images/logo.png" alt="logo"/>
+						</div>
+						<div class="col-xs-8 lower-right">
+							<div class="social">
+								
+								<ul class="social-list">
+									<li><a href="#"><img class="transition_0_5" src="images/social/yt.png"></a></li>
+									<li><a href="#"><img class="transition_0_5" src="images/social/link.png"></a></li>
+									<li><a href="#"><img class="transition_0_5" src="images/social/fb.png"></a></li>
+								</ul>
+							</div>
+							<div class="wyszukiwarka">
+								<form class="wyszukiwarka-form">
+									<input class="szukaj" type="text" name="search" placeholder="Wyszukaj w serwisie">
+									<div class="submit"><img src="images/search.png" alt="szukaj" /></div>
+								</form>
+							</div>
+							
+						</div>
+					</div>
+				</section>
+			</header>
+			<section class="wydarzenia">
+				<div class="container">
+					<div class="title-main col-xs-12">
+						<span class="title-main-span" ><h2>Wydarzenia</h2></span>	
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-8 ">
+							<div class="col-xs-12 wydarzenia-first">
+								<div class="row">
+									<!--pierwsze najblizsze wydarzenie-->
+									<div class="col-xs-12 wydarzenia-first-img" style="background-image: url(images/przykladowe/pic6.jpg);">
+									</div>
+									<div class="col-xs-12 wydarzenia-first-text">
+										<a href="#">
+										<div class="col-xs-12 wydarzenia-first-text-1">
+											<h3>Koniec z programem "MdM". Co w zamian?</h3>
+										</div>
+										<div class="col-xs-12 wydarzenia-first-text-2">
+											<h3>ZROZUMIEĆ MSP</h3>
+										</div>
+										<div class="col-xs-12 wydarzenia-first-text-3">
+											Międzynarodowy Fundusz Walutowy (MFW) ostrzegł, że światowa gospodarka stoi w obliczu rosnącego ryzyka ekonomicznego "wykolejenia" i należy podjąć kroki w celu zwiększenia...
+										</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-xs-12 col-sm-12 col-md-4 pLeft0-15">
+							<div class=" wydarzenia-right">
+								 <script>
+									$(document).ready(function(){
+										moment.locale('en',{
+											months : "Styczeń_Luty_Marzec_Kwiecień_Maj_Czerwiec_Lipiec_Sierpień_Wrzesień_Październik_Listopad_Grudzień".split("_"),
+										});
+										$('#calendar_box').clndr({
+											weekOffset: 1,
+											daysOfTheWeek: ['ND', 'PON', 'WT', 'ŚR', 'CZW', 'PT', 'SB'],
+											events: [
+																{ date: '2016-06-10', title: 'Wernisaż wystawy malarstwa Janusza Orzechowskiego: "Why So Serious?"', url: '/kalendarz/wernisaz-wystawy-malarstwa-janusza-orzechowskiego-why-so-serious/' },
+																{ date: '2016-05-14', title: 'Wernisaż wystawy malarstwa Wojciecha Brewki: "My"', url: '/kalendarz/wernisaz-wystawy-malarstwa-wojciecha-brewki-my/' },
+																{ date: '2016-04-08', title: 'Wernisaż wystawy malarstwa Łukasza Leskiera: "Kolorowa podróż w głąb gołębia pitraszącego minogi".', url: '/kalendarz/wernisaz-wystawy-malarstwa-lukasza-leskiera-kolorowa-podroz-w-glab-golebia-pitraszacego-minogi/' },
+																{ date: '2016-03-20', title: 'Warsztaty plastyczne 20 marca 2016', url: '/kalendarz/warsztaty-plastyczne-20-marca-2016/' },
+																{ date: '2016-03-08', title: 'Wernisaż wystawy malarstwa Kamili Jareckiej', url: '/kalendarz/wernisaz-wystawy-malarstwa-kamili-jareckiej/' },
+																{ date: '2015-12-08', title: 'Aukcja Art in House', url: '/kalendarz/aukcja-art-in-house/' },
+																{ date: '2016-02-28', title: 'Warsztaty plastyczne', url: '/kalendarz/warsztaty-plastyczne/' },
+																{ date: '2015-12-02', title: 'Wystawa "Przez czwartą ścianę. Dramat Witkacego na płótnie."', url: '/kalendarz/wystawa-przez-czwarta-sciane-dramat-witkacego-na-plotnie/' },
+																{ date: '2015-10-17', title: 'Trans4macje', url: '/kalendarz/trans4macje/' },
+																{ date: '2015-10-09', title: 'Art Park', url: '/kalendarz/art-park/' },
+																{ date: '2015-09-19', title: 'Spotkanie ze szwedzkim pisarzem Jensem Lapidusem', url: '/kalendarz/spotkanie-ze-szwedzkim-pisarzem-jensem-lapidusem/' },
+																{ date: '2015-06-20', title: 'Otwarcie Galerii Officyna', url: '/kalendarz/otwarcie-galerii-officyna/' },
+														],
+											clickEvents: {
+											  click: function(target) {
+												  window.location.href = target["events"][0]["url"];
+											  },
+											  onMonthChange: function(month) {
+
+											  }
+											},
+											doneRendering: function() {
+
+											}
+										});
+									});
+									</script>
+								<div id="calendar_box"></div>
+								<!--trzy kolejne wydarzenia za wyjątkiem tego pierwszego---->
+								<div class=" wydarzenia-kolejne">
+									<!---single-->
+									<a href="#">
+									<div class="col-xs-12 wydarzenie-single transition_0_5">
+										<div class="col-xs-4 wydarzenie-single-image" style="background-image: url(images/przykladowe/pic6.jpg);"></div>
+										<div class="col-xs-8 wydarzenia-single-text">
+											<div class=" wydarzenia-single-text-1">
+												<h4>Emerytury niższe nawet o 1 tys. zł. <br/>
+												Sprawdź, ile dostaniesz po <br/>
+												zmianach PiS<br/></h4>
+											</div>
+											<div class=" wydarzenia-single-text-2">
+												6.12.2015
+											</div>
+										</div>
+									</div>
+									</a>
+									<!---single-->
+									<a href="#">
+									<div class="col-xs-12 wydarzenie-single transition_0_5">
+										<div class="col-xs-4 wydarzenie-single-image" style="background-image: url(images/przykladowe/pic6.jpg);"></div>
+										<div class="col-xs-8 wydarzenia-single-text">
+											<div class=" wydarzenia-single-text-1">
+												<h4>Emerytury niższe nawet o 1 tys. zł. <br/>
+												Sprawdź, ile dostaniesz po <br/>
+												zmianach PiS<br/></h4>
+											</div>
+											<div class=" wydarzenia-single-text-2">
+												6.12.2015
+											</div>
+										</div>
+									</div>
+									</a>
+									<!---single-->
+									<a href="#">
+									<div class="col-xs-12 wydarzenie-single transition_0_5">
+										<div class="col-xs-4 wydarzenie-single-image" style="background-image: url(images/przykladowe/pic6.jpg);"></div>
+										<div class="col-xs-8 wydarzenia-single-text">
+											<div class=" wydarzenia-single-text-1">
+												<h4>Emerytury niższe nawet o 1 tys. zł. <br/>
+												Sprawdź, ile dostaniesz po <br/>
+												zmianach PiS<br/></h4>
+											</div>
+											<div class=" wydarzenia-single-text-2">
+												6.12.2015
+											</div>
+										</div>
+									</div>
+									</a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+			<section class="zpp">
+				<div class="container">
+					<div class="title-main col-xs-12">
+						<span class="title-main-span" ><h2>ZPP</h2></span>	
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<!--wyrozniony artykul-->
+						<div class="col-xs-12 col-sm-12 col-md-8 ">
+							<div class="col-xs-12 top-art">
+								<div class="row">
+									<div class="col-xs-12 top-art-img" style="background-image: url(images/przykladowe/pic6.jpg);">
+									</div>
+									<div class="col-xs-12 top-art-text">
+										<div class="col-xs-12 top-art-text-1">
+											<a href="#"><h3>Koniec z programem "MdM". Co w zamian?</h3></a>
+										</div>
+										<div class="col-xs-12 top-art-text-2">
+											Międzynarodowy Fundusz Walutowy (MFW) ostrzegł, że światowa gospodarka stoi w obliczu rosnącego ryzyka ekonomicznego "wykolejenia" i należy podjąć kroki w celu zwiększenia...
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-4 pLeft0-15">
+							<div class="col-xs-12 newsletter">
+								<div class="col-xs-12 newsletter-text1 no-padding">
+									
+									<p>
+									<b><h3>Bądź na bieżąco!</h3></b><br/>
+									Zapisz się na nasz newsletter
+									</p>
+									
+								</div>
+								<div class="col-xs-12 newsletter-form">
+									<form class="form-newsletter">
+										<input class="newsletter-input newsletter-input-3" type="text" placeholder="Podaj swój adres e-mail">
+										<div class="newsletter-input newsletter-input-1">
+											<div class="nazwa">
+												Wybierz województwo  <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+											</div>
+											<input class="input-hidden" type="text" value="">
+											<ul class="woj">
+												<li class="woj-list" data-name="woj.1">woj.1</li>
+												<li class="woj-list" data-name="woj.2">woj.2</li>
+												<li class="woj-list" data-name="woj.3">woj.3</li>
+												<li class="woj-list" data-name="woj.4">woj.4</li>
+												<li class="woj-list" data-name="woj.5">woj.5</li>
+												<li class="woj-list" data-name="woj.6">woj.6</li>
+												<li class="woj-list" data-name="woj.7">woj.7</li>
+												<li class="woj-list" data-name="woj.8">woj.8</li>
+												<li class="woj-list" data-name="woj.9">woj.9</li>
+												<li class="woj-list" data-name="woj.10">woj.10</li>
+												<li class="woj-list" data-name="woj.11">woj.11</li>
+												<li class="woj-list" data-name="woj.12">woj.12</li>
+											</ul>
+										</div>
+										<div class="newsletter-input newsletter-input-2">
+											<span>
+												Wyślij wiadomość
+											</span>
+										</div>
+									</form>
+								</div>
+								<div class="col-xs-12 newsletter-text2">
+									<p>
+									Podając swój adres e-mail wyrażasz zgodę na otrzymywanie
+									informacji od Związku Przedsiębiorców i Pracodawców
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-4 pLeft0-15">
+							<div class="col-xs-12 zapisz">
+							
+								<div class="col-xs-12 zapisz-text1 no-padding">
+									
+									<p>
+									<b><h3>Bądź na bieżąco!</h3></b><br/>
+									Zapisz się na nasz newsletter
+									</p>
+									
+								</div>
+								<div class="col-xs-12 zapisz-text2">
+									<a class="transition_0_5" href="#">Zapisz się</a>
+								</div>
+								<div class="col-xs-12 zapisz-text3 no-padding">
+									
+									<p>
+									Podając swój adres e-mail wyrażasz zgodę na otrzymywanie informacji od Związku Przedsiębiorców i Pracodawców
+									</p>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row mTop15">
+						<div class="col-xs-12 col-sm-12 col-md-8">
+							<div class="col-xs-12 blok-ikon">
+								<div class="row">
+									<!---single-->
+									<a class="transition_0_5 " href="#">
+										<div class="col-xs-12 col-sm-6  blok-ikon-single">
+											<div class="col-xs-3 blok-ikon-single-img" style="background-image: url(images/ikona-zpp.png);">
+											</div>
+											<div class="col-xs-9 blok-ikon-single-text">
+												<div class="blok-ikon-single-text-1">
+													<div class="blok-ikon-single-text-2">
+														<h2>Dlaczego warto?</h2>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<!---single-->
+									<a class="transition_0_5 " href="#">
+										<div class="col-xs-12 col-sm-6  blok-ikon-single">
+											<div class="col-xs-3 blok-ikon-single-img" style="background-image: url(images/ikona-zpp.png);">
+											</div>
+											<div class="col-xs-9 blok-ikon-single-text">
+												<div class="blok-ikon-single-text-1">
+													<div class="blok-ikon-single-text-2">
+														<h2>Dlaczego warto?</h2>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<!---single-->
+									<a class="transition_0_5 " href="#">
+										<div class="col-xs-12 col-sm-6  blok-ikon-single">
+											<div class="col-xs-3 blok-ikon-single-img" style="background-image: url(images/ikona-zpp.png);">
+											</div>
+											<div class="col-xs-9 blok-ikon-single-text">
+												<div class="blok-ikon-single-text-1">
+													<div class="blok-ikon-single-text-2">
+														<h2>Dlaczego warto?</h2>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<!---single-->
+									<a class="transition_0_5 " href="#">
+										<div class="col-xs-12 col-sm-6  blok-ikon-single">
+											<div class="col-xs-3 blok-ikon-single-img" style="background-image: url(images/ikona-zpp.png);">
+											</div>
+											<div class="col-xs-9 blok-ikon-single-text">
+												<div class="blok-ikon-single-text-1">
+													<div class="blok-ikon-single-text-2">
+														<h2>Dlaczego warto?</h2>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<!---single-->
+									<a class="transition_0_5 " href="#">
+										<div class="col-xs-12 col-sm-6  blok-ikon-single">
+											<div class="col-xs-3 blok-ikon-single-img" style="background-image: url(images/ikona-zpp.png);">
+											</div>
+											<div class="col-xs-9 blok-ikon-single-text">
+												<div class="blok-ikon-single-text-1">
+													<div class="blok-ikon-single-text-2">
+														<h2>Dlaczego warto?</h2>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									<!---single-->
+									<a class="transition_0_5 " href="#">
+										<div class="col-xs-12 col-sm-6  blok-ikon-single">
+											<div class="col-xs-3 blok-ikon-single-img" style="background-image: url(images/ikona-zpp.png);">
+											</div>
+											<div class="col-xs-9 blok-ikon-single-text">
+												<div class="blok-ikon-single-text-1">
+													<div class="blok-ikon-single-text-2">
+														<h2>Dlaczego warto?</h2>
+													</div>
+												</div>
+											</div>
+										</div>
+									</a>
+									
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-4 pLeft0-15">
+							<a href="#">
+								<div class="strefa_przedsiebiorcy col-xs-12">
+									<div class="strefa_przedsiebiorcy-1">
+										<div class="strefa_przedsiebiorcy-2">
+											<div class=" strefa_przedsiebiorcy-2-ico col-xs-12">
+												<img src="images/dlon-ico.png" alt="jakis_alt">
+											</div>
+											<div class="strefa_przedsiebiorcy-2-text col-xs-12">
+												<p>Strefa Oszczędnego przedsiębiorcy</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+
+				</div>
+			</section>
+			<footer>
+				<section id="top2">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-2 logo">
+								<img src="images/logo.png" alt="logo"/>
+							</div>
+							<div class="col-xs-10 logo">
+							</div>
+								<span class="inner">
+									<div class="go-top col-xs-6 col-sm-2">
+										<a href="#" class="transition_0_5" id="go-top"> Do góry</a>
+									</div>
+									<ul class="menu-bottom hidden-xs col-sm-10">
+										<li class="active"><a href="#">ZPP</a></li>
+										<li><a href="#">AKTUALNOŚCI</a></li>
+										<li><a href="#">Materiały</a></li>
+										<li><a href="#">Projekty</a></li>
+										<li><a href="#">Wydarzenia</a></li>
+										<li><a href="#">Kontakt</a></li>
+									</ul>
+								
+								</span>
+							
+						</div>
+						<div class="row">
+							<div class="col-xs-12 col-sm-6">
+								<div class="social">
+									<div class="social-text"><span>Zobacz nas na:</span></div>
+									<ul class="social-list">
+										<li><a href="#"><img class="transition_0_5 social2" src="images/social/yt.png"></a></li>
+										<li><a href="#"><img class="transition_0_5 social2" src="images/social/link.png"></a></li>
+										<li><a href="#"><img class="transition_0_5 social2" src="images/social/fb.png"></a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6">
+							
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="lower2">
+					<div class="container">
+						<div class="col-xs-12 col-sm-6 lower2-left">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada sem nunc.<br/>
+							Vestibulum a aliquam nibh. Quisque nec tortor velit. Suspendisse potenti.<br/>
+							Duis a nulla bibendum, aliquam arcu quis, mattis.
+						</div>
+						<div class="col-xs-12 col-sm-6 lower2-right">
+							<div class="lower2-right-inner">
+								<div>Projekt i realizacja: <a  class="transition_0_5" href="http://laboratoriumartystyczne.pl">Laboratorium Artystyczne</a></div>
+								<div>Oprogramowanie: <a  class="transition_0_5" href="http://blackwolfcms.pl">Black Wolf CMS</a></div>
+							</div>
+							<div class="icons">
+								<img src="images/LA.png"/>
+								<img src="images/BW.png"/>
+							</div>
+						</div>
+					</div>
+				</section>	
+			</footer>
+		</SECTION>
+	</BODY>
+</html>

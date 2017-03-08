@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--------------------->
+		<title>ZPP</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />	
+		<meta charset="UTF-8">
+
+		<!--------------------->
+		<!--Czcionka-->
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,700,900|Open+Sans:400,800,700,600&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<!--JQuery-->
+		<script src="js/jquery.js"></script>
+		
+		<!--Bootstrap-->
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		
+		<!--CSS/JS-->
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<script type="text/javascript" src="js/main.js"></script>
+
+		<!--------------------->
+		
+	</head>
+	<BODY>
+		<SECTION id="page_wrapper">
+			<header>
+				<section id="top">
+					<div class ="container">
+						<div class="col-xs-12 menu-top-div">
+							<div class="menu-top-image ">
+								<img src="images/menu.png"/>
+							</div>
+							<ul class="menu-top">
+								<li class="active rozwijane"><a href="#">ZPP <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+									<ul class="menu-top_lv2">
+										<li><a href="#">manifest</a></li>
+										<li><a href="#">władze</a></li>
+										<li><a href="#">organizacje</a></li>
+									</ul>
+								</li>
+								<li><a href="#">AKTUALNOŚCI</a></li>
+								<li><a href="#">Materiały</a></li>
+								<li><a href="#">Projekty</a></li>
+								<li><a href="#">Wydarzenia</a></li>
+								<li><a href="#">Kontakt</a></li>
+							</ul>
+						</div>
+						<div class="rejestracja">
+							<a class="rejestracja_1 transition_0_5" href="#">Dołącz do ZPP</a>
+							<a class="rejestracja_2 transition_0_5" href="#"><img src="images/koperta.png" alt="newsletter_ico"/>Newsletter ZPP</a>
+						</div>
+					</div>
+					
+				</section>
+				<section id="lower">
+					<div class ="container">
+						<div class="col-xs-4 logo">
+							<img src="images/logo.png" alt="logo"/>
+						</div>
+						<div class="col-xs-8 lower-right">
+							<div class="social">
+								
+								<ul class="social-list">
+									<li><a href="#"><img class="transition_0_5" src="images/social/yt.png"></a></li>
+									<li><a href="#"><img class="transition_0_5" src="images/social/link.png"></a></li>
+									<li><a href="#"><img class="transition_0_5" src="images/social/fb.png"></a></li>
+								</ul>
+							</div>
+							<div class="wyszukiwarka">
+								<form class="wyszukiwarka-form">
+									<input class="szukaj" type="text" name="search" placeholder="Wyszukaj w serwisie">
+									<div class="submit"><img src="images/search.png" alt="szukaj" /></div>
+								</form>
+							</div>
+							
+						</div>
+					</div>
+				</section>
+			</header>
+			<section id="kontakt">
+				<div class="container">
+					<script src='https://www.google.com/recaptcha/api.js'></script>
+					<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcOSSa53D4rxeybPDHt5tRJPp2aITwgiw&amp;sensor&amp;sensor=false&amp;extension=.js"></script>
+					<script> 
+						google.maps.event.addDomListener(window, 'load', init);
+						var map;
+						/*var pozycja= "52.2337173, 21.0166983";
+						{if $oArticle->extlink}
+							
+							pozycja = '{$oArticle->extlink}';
+						{/if}
+						var poz = pozycja.split(',');
+						var pozx = poz[0].trim();
+						var pozy = poz[1].trim();
+						*/
+						
+						function init() 
+						{
+							var mapOptions = {
+								//center: new google.maps.LatLng(pozx, pozy),
+								center: new google.maps.LatLng(52.233714, 21.0166983),
+								zoom: 16,
+								zoomControl: true,
+
+								zoomControlOptions: {
+										style: google.maps.ZoomControlStyle.DEFAULT
+								},
+								disableDoubleClickZoom: false,
+								mapTypeControl: false,
+								scaleControl: true,
+								scrollwheel: false,
+								panControl: false,
+								streetViewControl: true,
+								streetViewControlOptions: {
+									position: google.maps.ControlPosition.LEFT_BOTTOM
+								},
+								draggable : true,
+								overviewMapControl: false,
+								zoomControlOptions: {
+									position: google.maps.ControlPosition.LEFT_BOTTOM
+								},
+								overviewMapControlOptions: {
+								opened: true,
+								},
+								mapTypeId: google.maps.MapTypeId.ROADMAP
+							}
+
+							var mapElement = document.getElementById('mainmap');
+							var map = new google.maps.Map(mapElement, mapOptions);
+
+							var locations = [
+								
+								//['KochamWode', 'undefined', 'undefined', 'undefined', 'undefined', pozx, pozy, '/asset/site/images/marker.png']
+								['zpp', 'undefined', 'undefined', 'undefined', 'undefined', 52.233714, 21.0166983]
+							];
+							for (i = 0; i < locations.length; i++) {
+								if (locations[i][1] =='undefined'){ description =''; } else { description = locations[i][1]; }
+								if (locations[i][2] =='undefined'){ telephone =''; } else { telephone = locations[i][2]; }
+								if (locations[i][3] =='undefined'){ email =''; } else { email = locations[i][3]; }
+								if (locations[i][4] =='undefined'){ web =''; } else { web = locations[i][4]; }
+								if (locations[i][7] =='undefined'){ markericon =''; } else { markericon = locations[i][7]; }
+
+								marker = new google.maps.Marker({
+										icon: markericon,
+										position: new google.maps.LatLng(locations[i][5], locations[i][6]),
+										map: map,
+										title: locations[i][0],
+										desc: description,
+										tel: telephone,
+										email: email,
+										web: web
+								});
+								link = '';     
+							}
+						}
+					</script>
+					<div class="title-main col-xs-12">
+						<span class="title-main-span" >Kontakt</span>	
+					</div>
+					<div class="mainmap-outter col-xs-12 no-padding">
+						<div id="mainmap" class="col-xs-12 no-padding"></div>
+						<div class="mainmap-more">
+							<a href="#" target="_blank">otwórz większą mapę  w google >><!--link do zewnetrzej mapy google--></a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-6 col-md-5 kontakt-text">
+							<div class="kontakt-title col-xs-12 no-padding">
+								<h2>Zachęcamy do kontaktu z nami:</h2>
+								<h1>Związek Przedsięciorców i Pracodawców</h1>
+							</div>
+							<div class="">
+								<adress>
+								<p>
+								ul. Nowy Świat 33
+								00-029 Warszawa<br/>
+								<br/>
+								Tel: 22 826 08 31<br/>
+								Email: biuro@zpp.net.pl<br/>
+								<br/>
+								NIP: 522-295-88-64<br/>
+								REGON: 142553074<br/>
+								KRS: 0000361844 prowadzony przez Sąd Rejonowy dla Miasta Stołecznego Warszawy<br/>
+								<br/>
+								RACHUNEK BANKOWY ZPP: <br/>
+								MULTIBANK 36114020170000440212047207<br/>
+								<br/>
+								SKŁADKI CZŁONKOWSKIE: <br/>
+								MULTIBANK 85114020170000460213020398<br/>
+								</p>
+								</adress>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-7 kontakt-formularz">
+							<form id="formularz" class="col-xs-12">
+								<div class="col-xs-12 col-sm-12 col-md-6">
+									<input class="poletekstowe" type="text" name="fname" placeholder="Imię">
+								</div>
+								<div class="col-xs-12 col-sm-12 col-md-6">
+									<input class="poletekstowe" type="text" name="lname" placeholder="Nazwisko">
+								</div>
+								<div class="col-xs-12 col-sm-12 col-md-6">
+									<input class="poletekstowe correct" type="text" name="mail" placeholder="Adres E-mail">
+								</div>
+								<div class="col-xs-12 col-sm-12 col-md-6">
+									<input class="poletekstowe  error" type="text" name="phone" placeholder="Telefon">
+									<div class="info col-xs-12"> <span>podany numer jest nieprawidłowy</span></div>
+								</div>
+								<div class="col-xs-12 col-sm-12 col-md-6">
+									<input class="poletekstowe" type="text" name="company" placeholder="Firma">
+								</div>
+								<div class="col-xs-12 col-sm-12 col-md-6">
+									<input class="poletekstowe" type="text" name="workplace" placeholder="Stanowisko">
+								</div>
+								<div class="col-xs-12">
+									<input class="poletekstowe" type="text" name="title" placeholder="Temat wiadomości">
+								</div>
+								<div class="col-xs-12">
+									<textarea class="poletekstowe" placeholder="Treść wiadomości"></textarea>
+								</div>
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 captcha">
+									<div class="g-recaptcha" data-sitekey="6LebVBETAAAAAB5u4Dogsmyqwj6eBsVcR6WJaZk_"></div>
+								</div>
+								<div class="col-xs-12 col-sm-12 col-md-12  col-lg-6 submit-div">
+									<a class="submit transition_0_5" href="#">Wyślij wiadomość <img src="images/right_arrow_small.png" alt="arrow right"/></a>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+			<footer>
+				<section id="top2">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-2 logo">
+								<img src="images/logo.png" alt="logo"/>
+							</div>
+							<div class="col-xs-10 logo">
+							</div>
+								<span class="inner">
+									<div class="go-top col-xs-6 col-sm-2">
+										<a href="#" class="transition_0_5" id="go-top"> Do góry</a>
+									</div>
+									<ul class="menu-bottom hidden-xs col-sm-10">
+										<li class="active"><a href="#">ZPP</a></li>
+										<li><a href="#">AKTUALNOŚCI</a></li>
+										<li><a href="#">Materiały</a></li>
+										<li><a href="#">Projekty</a></li>
+										<li><a href="#">Wydarzenia</a></li>
+										<li><a href="#">Kontakt</a></li>
+									</ul>
+								
+								</span>
+							
+						</div>
+						<div class="row">
+							<div class="col-xs-12 col-sm-6">
+								<div class="social">
+								<div class="social-text"><span>Zobacz nas na:</span></div>
+								<ul class="social-list">
+									<li><a href="#"><img class="transition_0_5 social2" src="images/social/yt.png"></a></li>
+									<li><a href="#"><img class="transition_0_5 social2" src="images/social/link.png"></a></li>
+									<li><a href="#"><img class="transition_0_5 social2" src="images/social/fb.png"></a></li>
+								</ul>
+							</div>
+							</div>
+							<div class="col-xs-12 col-sm-6">
+							
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="lower2">
+					<div class="container">
+						<div class="col-xs-12 col-sm-6 lower2-left">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada sem nunc.<br/>
+							Vestibulum a aliquam nibh. Quisque nec tortor velit. Suspendisse potenti.<br/>
+							Duis a nulla bibendum, aliquam arcu quis, mattis.
+						</div>
+						<div class="col-xs-12 col-sm-6 lower2-right">
+							<div class="lower2-right-inner">
+								<div>Projekt i realizacja: <a  class="transition_0_5" href="http://laboratoriumartystyczne.pl">Laboratorium Artystyczne</a></div>
+								<div>Oprogramowanie: <a  class="transition_0_5" href="http://blackwolfcms.pl">Black Wolf CMS</a></div>
+							</div>
+							<div class="icons">
+								<img src="images/LA.png"/>
+								<img src="images/BW.png"/>
+							</div>
+						</div>
+					</div>
+				</section>	
+			</footer>
+		</SECTION>
+	</BODY>
+</html>

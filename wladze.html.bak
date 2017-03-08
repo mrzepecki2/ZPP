@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--------------------->
+		<title>ZPP</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />	
+		<meta charset="UTF-8">
+
+		<!--------------------->
+		<!--Czcionka-->
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,700,900|Open+Sans:400,800,700,600&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<!--JQuery-->
+		<script src="js/jquery.js"></script>
+		
+		<!--Bootstrap-->
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		
+		<!--CSS/JS-->
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<script type="text/javascript" src="js/main.js"></script>
+
+		<!--------------------->
+		
+	</head>
+	<BODY>
+		<SECTION id="page_wrapper">
+			<header>
+				<section id="top">
+					<div class ="container">
+						<div class="col-xs-12 menu-top-div">
+							<div class="menu-top-image ">
+								<img src="images/menu.png"/>
+							</div>
+							<ul class="menu-top">
+								<li class="active rozwijane"><a href="#">ZPP <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+									<ul class="menu-top_lv2">
+										<li><a href="#">manifest</a></li>
+										<li><a href="#">władze</a></li>
+										<li><a href="#">organizacje</a></li>
+									</ul>
+								</li>
+								<li><a href="#">AKTUALNOŚCI</a></li>
+								<li><a href="#">Materiały</a></li>
+								<li><a href="#">Projekty</a></li>
+								<li><a href="#">Wydarzenia</a></li>
+								<li><a href="#">Kontakt</a></li>
+							</ul>
+						</div>
+						<div class="rejestracja">
+							<a class="rejestracja_1 transition_0_5" href="#">Dołącz do ZPP</a>
+							<a class="rejestracja_2 transition_0_5" href="#"><img src="images/koperta.png" alt="newsletter_ico"/>Newsletter ZPP</a>
+						</div>
+					</div>
+					
+				</section>
+				<section id="lower">
+					<div class ="container">
+						<div class="col-xs-4 logo">
+							<img src="images/logo.png" alt="logo"/>
+						</div>
+						<div class="col-xs-8 lower-right">
+							<div class="social">
+								
+								<ul class="social-list">
+									<li><a href="#"><img class="transition_0_5" src="images/social/yt.png"></a></li>
+									<li><a href="#"><img class="transition_0_5" src="images/social/link.png"></a></li>
+									<li><a href="#"><img class="transition_0_5" src="images/social/fb.png"></a></li>
+								</ul>
+							</div>
+							<div class="wyszukiwarka">
+								<form class="wyszukiwarka-form">
+									<input class="szukaj" type="text" name="search" placeholder="Wyszukaj w serwisie">
+									<div class="submit"><img src="images/search.png" alt="szukaj" /></div>
+								</form>
+							</div>
+							
+						</div>
+					</div>
+				</section>
+			</header>
+			
+			<section class="wladze">
+				<div class="container">
+					<div class="title-main col-xs-12">
+						<span class="title-main-span" >Zarząd</span>	
+					</div>
+				</div>
+				<div class="container">
+					<div class="wladze-lista">
+						<!--single-->
+						<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 wladze-single">
+							<div class="wladze-single-ramka no-padding col-xs-12">
+								<div class="wladze-single-img col-xs-12" style="background-image:url(images/przykladowe/pic4.jpg)"></div>
+							</div>
+							<div class="no-padding wladze-single-text col-xs-12 no-padding">
+								<div class="text-1 col-xs-12 no-padding">
+									Imię i Nazwisko
+								</div>
+								<div class="text-2 col-xs-12 no-padding">
+									Kierownik
+								</div>
+								<div class="text-3 col-xs-12 no-padding">
+									(Nazwa Organizacji)
+								</div>
+							</div>
+						</div>
+						<!--single-->
+						<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 wladze-single">
+							<div class="wladze-single-ramka no-padding col-xs-12">
+								<div class="wladze-single-img col-xs-12" style="background-image:url(images/przykladowe/pic4.jpg)"></div>
+							</div>
+							<div class="no-padding wladze-single-text col-xs-12 no-padding">
+								<div class="text-1 col-xs-12 no-padding">
+									Imię i Nazwisko
+								</div>
+								<div class="text-2 col-xs-12 no-padding">
+									Kierownik
+								</div>
+								<div class="text-3 col-xs-12 no-padding">
+									(Nazwa Organizacji)
+								</div>
+							</div>
+						</div>
+						<!--single-->
+						<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 wladze-single">
+							<div class="wladze-single-ramka no-padding col-xs-12">
+								<div class="wladze-single-img col-xs-12" style="background-image:url(images/przykladowe/pic4.jpg)"></div>
+							</div>
+							<div class="no-padding wladze-single-text col-xs-12 no-padding">
+								<div class="text-1 col-xs-12 no-padding">
+									Imię i Nazwisko
+								</div>
+								<div class="text-2 col-xs-12 no-padding">
+									Kierownik
+								</div>
+								<div class="text-3 col-xs-12 no-padding">
+									(Nazwa Organizacji)
+								</div>
+							</div>
+						</div>
+						<!--single-->
+						<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 wladze-single">
+							<div class="wladze-single-ramka no-padding col-xs-12">
+								<div class="wladze-single-img col-xs-12" style="background-image:url(images/przykladowe/pic4.jpg)"></div>
+							</div>
+							<div class="no-padding wladze-single-text col-xs-12 no-padding">
+								<div class="text-1 col-xs-12 no-padding">
+									Imię i Nazwisko
+								</div>
+								<div class="text-2 col-xs-12 no-padding">
+									Kierownik
+								</div>
+								<div class="text-3 col-xs-12 no-padding">
+									(Nazwa Organizacji)
+								</div>
+							</div>
+						</div>
+						<!--single-->
+						<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 wladze-single">
+							<div class="wladze-single-ramka no-padding col-xs-12">
+								<div class="wladze-single-img col-xs-12" style="background-image:url(images/przykladowe/pic4.jpg)"></div>
+							</div>
+							<div class="no-padding wladze-single-text col-xs-12 no-padding">
+								<div class="text-1 col-xs-12 no-padding">
+									Imię i Nazwisko
+								</div>
+								<div class="text-2 col-xs-12 no-padding">
+									Kierownik
+								</div>
+								<div class="text-3 col-xs-12 no-padding">
+									(Nazwa Organizacji)
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</section>
+			<section class="wladze">
+				<div class="container">
+					<div class="title-main col-xs-12">
+						<span class="title-main-span" >Rada nadzorcza</span>	
+					</div>
+				</div>
+				<div class="container">
+					<div class="wladze-lista">
+						<!--single-->
+						<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 wladze-single">
+							<div class="wladze-single-ramka no-padding col-xs-12">
+								<div class="wladze-single-img col-xs-12" style="background-image:url(images/przykladowe/pic4.jpg)"></div>
+							</div>
+							<div class="no-padding wladze-single-text col-xs-12 no-padding">
+								<div class="text-1 col-xs-12 no-padding">
+									Imię i Nazwisko
+								</div>
+								<div class="text-2 col-xs-12 no-padding">
+									Kierownik
+								</div>
+								<div class="text-3 col-xs-12 no-padding">
+									(Nazwa Organizacji)
+								</div>
+							</div>
+						</div>
+						<!--single-->
+						<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 wladze-single">
+							<div class="wladze-single-ramka no-padding col-xs-12">
+								<div class="wladze-single-img col-xs-12" style="background-image:url(images/przykladowe/pic4.jpg)"></div>
+							</div>
+							<div class="no-padding wladze-single-text col-xs-12 no-padding">
+								<div class="text-1 col-xs-12 no-padding">
+									Imię i Nazwisko
+								</div>
+								<div class="text-2 col-xs-12 no-padding">
+									Kierownik
+								</div>
+								<div class="text-3 col-xs-12 no-padding">
+									(Nazwa Organizacji)
+								</div>
+							</div>
+						</div>
+						<!--single-->
+						<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 wladze-single">
+							<div class="wladze-single-ramka no-padding col-xs-12">
+								<div class="wladze-single-img col-xs-12" style="background-image:url(images/przykladowe/pic4.jpg)"></div>
+							</div>
+							<div class="no-padding wladze-single-text col-xs-12 no-padding">
+								<div class="text-1 col-xs-12 no-padding">
+									Imię i Nazwisko
+								</div>
+								<div class="text-2 col-xs-12 no-padding">
+									Kierownik
+								</div>
+								<div class="text-3 col-xs-12 no-padding">
+									(Nazwa Organizacji)
+								</div>
+							</div>
+						</div>
+						<!--single-->
+						<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 wladze-single">
+							<div class="wladze-single-ramka no-padding col-xs-12">
+								<div class="wladze-single-img col-xs-12" style="background-image:url(images/przykladowe/pic4.jpg)"></div>
+							</div>
+							<div class="no-padding wladze-single-text col-xs-12 no-padding">
+								<div class="text-1 col-xs-12 no-padding">
+									Imię i Nazwisko
+								</div>
+								<div class="text-2 col-xs-12 no-padding">
+									Kierownik
+								</div>
+								<div class="text-3 col-xs-12 no-padding">
+									(Nazwa Organizacji)
+								</div>
+							</div>
+						</div>
+						<!--single-->
+						<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 wladze-single">
+							<div class="wladze-single-ramka no-padding col-xs-12">
+								<div class="wladze-single-img col-xs-12" style="background-image:url(images/przykladowe/pic4.jpg)"></div>
+							</div>
+							<div class="no-padding wladze-single-text col-xs-12 no-padding">
+								<div class="text-1 col-xs-12 no-padding">
+									Imię i Nazwisko
+								</div>
+								<div class="text-2 col-xs-12 no-padding">
+									Kierownik
+								</div>
+								<div class="text-3 col-xs-12 no-padding">
+									(Nazwa Organizacji)
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</section>
+			<section class="wladze">
+				<div class="container">
+					<div class="title-main col-xs-12">
+						<span class="title-main-span" >Sąd koleżeński</span>	
+					</div>
+				</div>
+				<div class="container">
+					<div class="wladze-lista">
+						<!--single-->
+						<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 wladze-single">
+							<div class="wladze-single-ramka no-padding col-xs-12">
+								<div class="wladze-single-img col-xs-12" style="background-image:url(images/przykladowe/pic4.jpg)"></div>
+							</div>
+							<div class="no-padding wladze-single-text col-xs-12 no-padding">
+								<div class="text-1 col-xs-12 no-padding">
+									Imię i Nazwisko
+								</div>
+								<div class="text-2 col-xs-12 no-padding">
+									Kierownik
+								</div>
+								<div class="text-3 col-xs-12 no-padding">
+									(Nazwa Organizacji)
+								</div>
+							</div>
+						</div>
+						<!--single-->
+						<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 wladze-single">
+							<div class="wladze-single-ramka no-padding col-xs-12">
+								<div class="wladze-single-img col-xs-12" style="background-image:url(images/przykladowe/pic4.jpg)"></div>
+							</div>
+							<div class="no-padding wladze-single-text col-xs-12 no-padding">
+								<div class="text-1 col-xs-12 no-padding">
+									Imię i Nazwisko
+								</div>
+								<div class="text-2 col-xs-12 no-padding">
+									Kierownik
+								</div>
+								<div class="text-3 col-xs-12 no-padding">
+									(Nazwa Organizacji)
+								</div>
+							</div>
+						</div>
+						<!--single-->
+						<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 wladze-single">
+							<div class="wladze-single-ramka no-padding col-xs-12">
+								<div class="wladze-single-img col-xs-12" style="background-image:url(images/przykladowe/pic4.jpg)"></div>
+							</div>
+							<div class="no-padding wladze-single-text col-xs-12 no-padding">
+								<div class="text-1 col-xs-12 no-padding">
+									Imię i Nazwisko
+								</div>
+								<div class="text-2 col-xs-12 no-padding">
+									Kierownik
+								</div>
+								<div class="text-3 col-xs-12 no-padding">
+									(Nazwa Organizacji)
+								</div>
+							</div>
+						</div>
+						
+						
+					</div>
+				</div>
+			</section>
+			<section class="wladze">
+				
+				<div class="container">
+					<div class="galeria-lista">
+						<!--single-->
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 wladze-single">
+							<div class="col-xs-12 no-padding">
+								<div class="title-main col-xs-12">
+									<span class="title-main-span" >Wpis 1</span>	
+								</div>
+							</div>
+							<div class="galeria-single-ramka no-padding col-xs-6">
+								<div class="galeria-single-img col-xs-12" style="background-image:url(images/przykladowe/pic4.jpg)"></div>
+							</div>
+							<div class="col-xs-6"></div>
+							<div class="no-padding galeria-single-text col-xs-12 no-padding">
+								<div class="text-1 col-xs-12 no-padding">
+									Imię i Nazwisko
+								</div>
+								<div class="text-2 col-xs-12 no-padding">
+									Kierownik
+								</div>
+								<div class="text-3 col-xs-12 no-padding">
+									(Nazwa Organizacji)
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 wladze-single">
+							<div class="col-xs-12 no-padding">
+								<div class="title-main col-xs-12">
+									<span class="title-main-span" >Wpis 2</span>	
+								</div>
+							</div>
+							<div class="galeria-single-ramka no-padding col-xs-6">
+								<div class="galeria-single-img col-xs-12" style="background-image:url(images/przykladowe/pic4.jpg)"></div>
+							</div>
+							<div class="col-xs-6"></div>
+							<div class="no-padding galeria-single-text col-xs-12 no-padding">
+								<div class="text-1 col-xs-12 no-padding">
+									Imię i Nazwisko
+								</div>
+								<div class="text-2 col-xs-12 no-padding">
+									Kierownik
+								</div>
+								<div class="text-3 col-xs-12 no-padding">
+									(Nazwa Organizacji)
+								</div>
+							</div>
+						</div>
+						
+						
+					</div>
+				</div>
+			</section>
+			<footer>
+				<section id="top2">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-2 logo">
+								<img src="images/logo.png" alt="logo"/>
+							</div>
+							<div class="col-xs-10 logo">
+							</div>
+								<span class="inner">
+									<div class="go-top col-xs-6 col-sm-2">
+										<a href="#" class="transition_0_5" id="go-top"> Do góry</a>
+									</div>
+									<ul class="menu-bottom hidden-xs col-sm-10">
+										<li class="active"><a href="#">ZPP</a></li>
+										<li><a href="#">AKTUALNOŚCI</a></li>
+										<li><a href="#">Materiały</a></li>
+										<li><a href="#">Projekty</a></li>
+										<li><a href="#">Wydarzenia</a></li>
+										<li><a href="#">Kontakt</a></li>
+									</ul>
+								
+								</span>
+							
+						</div>
+						<div class="row">
+							<div class="col-xs-12 col-sm-6">
+								<div class="social">
+								<div class="social-text"><span>Zobacz nas na:</span></div>
+								<ul class="social-list">
+									<li><a href="#"><img class="transition_0_5 social2" src="images/social/yt.png"></a></li>
+									<li><a href="#"><img class="transition_0_5 social2" src="images/social/link.png"></a></li>
+									<li><a href="#"><img class="transition_0_5 social2" src="images/social/fb.png"></a></li>
+								</ul>
+							</div>
+							</div>
+							<div class="col-xs-12 col-sm-6">
+							
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="lower2">
+					<div class="container">
+						<div class="col-xs-12 col-sm-6 lower2-left">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada sem nunc.<br/>
+							Vestibulum a aliquam nibh. Quisque nec tortor velit. Suspendisse potenti.<br/>
+							Duis a nulla bibendum, aliquam arcu quis, mattis.
+						</div>
+						<div class="col-xs-12 col-sm-6 lower2-right">
+							<div class="lower2-right-inner">
+								<div>Projekt i realizacja: <a  class="transition_0_5" href="http://laboratoriumartystyczne.pl">Laboratorium Artystyczne</a></div>
+								<div>Oprogramowanie: <a  class="transition_0_5" href="http://blackwolfcms.pl">Black Wolf CMS</a></div>
+							</div>
+							<div class="icons">
+								<img src="images/LA.png"/>
+								<img src="images/BW.png"/>
+							</div>
+						</div>
+					</div>
+				</section>	
+			</footer>
+		</SECTION>
+	</BODY>
+</html>

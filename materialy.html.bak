@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--------------------->
+		<title>ZPP</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />	
+		<meta charset="UTF-8">
+
+		<!--------------------->
+		<!--Czcionka-->
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,700,900|Open+Sans:400,800,700,600&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<!--JQuery-->
+		<script src="js/jquery.js"></script>
+		
+		<!--Bootstrap-->
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		
+		<!--CSS/JS-->
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<script type="text/javascript" src="js/main.js"></script>
+
+		<!--------------------->
+		
+	</head>
+	<BODY>
+		<SECTION id="page_wrapper">
+			<header>
+				<section id="top">
+					<div class ="container">
+						<div class="col-xs-12 menu-top-div">
+							<div class="menu-top-image ">
+								<img src="images/menu.png"/>
+							</div>
+							<ul class="menu-top">
+								<li class="active rozwijane"><a href="#">ZPP <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+									<ul class="menu-top_lv2">
+										<li><a href="#">manifest</a></li>
+										<li><a href="#">władze</a></li>
+										<li><a href="#">organizacje</a></li>
+									</ul>
+								</li>
+								<li><a href="#">AKTUALNOŚCI</a></li>
+								<li><a href="#">Materiały</a></li>
+								<li><a href="#">Projekty</a></li>
+								<li><a href="#">Wydarzenia</a></li>
+								<li><a href="#">Kontakt</a></li>
+							</ul>
+						</div>
+						<div class="rejestracja">
+							<a class="rejestracja_1 transition_0_5" href="#">Dołącz do ZPP</a>
+							<a class="rejestracja_2 transition_0_5" href="#"><img src="images/koperta.png" alt="newsletter_ico"/>Newsletter ZPP</a>
+						</div>
+					</div>
+					
+				</section>
+				<section id="lower">
+					<div class ="container">
+						<div class="col-xs-4 logo">
+							<img src="images/logo.png" alt="logo"/>
+						</div>
+						<div class="col-xs-8 lower-right">
+							<div class="social">
+								
+								<ul class="social-list">
+									<li><a href="#"><img class="transition_0_5" src="images/social/yt.png"></a></li>
+									<li><a href="#"><img class="transition_0_5" src="images/social/link.png"></a></li>
+									<li><a href="#"><img class="transition_0_5" src="images/social/fb.png"></a></li>
+								</ul>
+							</div>
+							<div class="wyszukiwarka">
+								<form class="wyszukiwarka-form">
+									<input class="szukaj" type="text" name="search" placeholder="Wyszukaj w serwisie">
+									<div class="submit"><img src="images/search.png" alt="szukaj" /></div>
+								</form>
+							</div>
+							
+						</div>
+					</div>
+				</section>
+			</header>
+			<section class="title">
+				<div class="container">
+					<div class="title-main col-xs-12">
+						<span class="title-main-span" >Pliki do pobrania</span>	
+					</div>
+				</div>
+			</section>
+			<section class="do-pobrania">
+				<div class="container">
+					<div class="title-do-pobrania col-xs-12">
+						Uchwały i sprawozdania
+					</div>
+					<div class="col-xs-12 do-pobrania-lista no-padding">
+						<!--single-1-->
+						<div class="do-pobrania-single col-xs-12 no-padding">
+							<div class="do-pobrania-single-inner col-xs-12">
+								<div class="col-xs-12 col-sm-12 col-md-6 do-pobrania-single-nazwa">
+									<div class="col-xs-2 col-sm-1">
+										<img src="images/pdf-document.png" alt="file-icon"/>
+									</div>
+									
+									<div class="col-xs-10 col-sm-11 do-pobrania-single-nazwa-1 MBT5">22.06.2015 Statut ZPP</div>
+								</div>
+								<div class="col-xs-6 col-sm-4 col-md-2 .mTop5 do-pobrania-single-data alignC MBT5">
+									22.06.2015
+								</div>
+								<div class="col-xs-6 col-sm-4 col-md-2 .mTop5 do-pobrania-single-rozmiar alignC MBT5">
+									3KM
+								</div>
+								<div class="col-xs-12 col-sm-4 col-md-2 .mTop5 do-pobrania-single-pobierz alignC MBT5">
+									<a href="#">Pobierz plik</a>
+								</div>
+							</div>
+						</div>
+						<!--single-2-->
+						<div class="do-pobrania-single col-xs-12 no-padding">
+							<div class="do-pobrania-single-inner col-xs-12">
+								<div class="col-xs-12 col-sm-12 col-md-6 do-pobrania-single-nazwa">
+									<div class="col-xs-2 col-sm-1">
+										<img src="images/pdf-document.png" alt="file-icon"/>
+									</div>
+									
+									<div class="col-xs-10 col-sm-11 do-pobrania-single-nazwa-1 MBT5">22.06.2015 Statut ZPP</div>
+								</div>
+								<div class="col-xs-6 col-sm-4 col-md-2 .mTop5 do-pobrania-single-data alignC MBT5">
+									22.06.2015
+								</div>
+								<div class="col-xs-6 col-sm-4 col-md-2 .mTop5 do-pobrania-single-rozmiar alignC MBT5">
+									3KM
+								</div>
+								<div class="col-xs-12 col-sm-4 col-md-2 .mTop5 do-pobrania-single-pobierz alignC MBT5">
+									<a href="#">Pobierz plik</a>
+								</div>
+							</div>
+						</div>
+						<!--single-2-->
+						<div class="do-pobrania-single col-xs-12 no-padding">
+							<div class="do-pobrania-single-inner col-xs-12">
+								<div class="col-xs-12 col-sm-12 col-md-6 do-pobrania-single-nazwa">
+									<div class="col-xs-2 col-sm-1">
+										<img src="images/pdf-document.png" alt="file-icon"/>
+									</div>
+									
+									<div class="col-xs-10 col-sm-11 do-pobrania-single-nazwa-1 MBT5">22.06.2015 Statut ZPP</div>
+								</div>
+								<div class="col-xs-6 col-sm-4 col-md-2 .mTop5 do-pobrania-single-data alignC MBT5">
+									22.06.2015
+								</div>
+								<div class="col-xs-6 col-sm-4 col-md-2 .mTop5 do-pobrania-single-rozmiar alignC MBT5">
+									3KM
+								</div>
+								<div class="col-xs-12 col-sm-4 col-md-2 .mTop5 do-pobrania-single-pobierz alignC MBT5">
+									<a href="#">Pobierz plik</a>
+								</div>
+							</div>
+						</div>
+						<!--zwijamy!!!!-->
+						<div class="do-pobrania-zwijamy col-xs-12 no-padding">
+							<div class="do-pobrania-zwijamy-lista col-xs-12 no-padding">
+								<!--single-4-->
+								<div class="do-pobrania-single col-xs-12 no-padding">
+									<div class="do-pobrania-single-inner col-xs-12">
+										<div class="col-xs-12 col-sm-12 col-md-6 do-pobrania-single-nazwa">
+											<div class="col-xs-2 col-sm-1">
+												<img src="images/pdf-document.png" alt="file-icon"/>
+											</div>
+											
+											<div class="col-xs-10 col-sm-11 do-pobrania-single-nazwa-1 MBT5">22.06.2015 Statut ZPP</div>
+										</div>
+										<div class="col-xs-6 col-sm-4 col-md-2 .mTop5 do-pobrania-single-data alignC MBT5">
+											22.06.2015
+										</div>
+										<div class="col-xs-6 col-sm-4 col-md-2 .mTop5 do-pobrania-single-rozmiar alignC MBT5">
+											3KM
+										</div>
+										<div class="col-xs-12 col-sm-4 col-md-2 .mTop5 do-pobrania-single-pobierz alignC MBT5">
+											<a href="#">Pobierz plik</a>
+										</div>
+									</div>
+								</div>
+								<!--single-5-->
+								<div class="do-pobrania-single col-xs-12 no-padding">
+									<div class="do-pobrania-single-inner col-xs-12">
+										<div class="col-xs-12 col-sm-12 col-md-6 do-pobrania-single-nazwa">
+											<div class="col-xs-2 col-sm-1">
+												<img src="images/pdf-document.png" alt="file-icon"/>
+											</div>
+											
+											<div class="col-xs-10 col-sm-11 do-pobrania-single-nazwa-1 MBT5">22.06.2015 Statut ZPP</div>
+										</div>
+										<div class="col-xs-6 col-sm-4 col-md-2 .mTop5 do-pobrania-single-data alignC MBT5">
+											22.06.2015
+										</div>
+										<div class="col-xs-6 col-sm-4 col-md-2 .mTop5 do-pobrania-single-rozmiar alignC MBT5">
+											3KM
+										</div>
+										<div class="col-xs-12 col-sm-4 col-md-2 .mTop5 do-pobrania-single-pobierz alignC MBT5">
+											<a href="#">Pobierz plik</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div  class="do-pobrania-zwijamy-more col-xs-12">
+								Zobacz więcej <span class="glyphicon glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--do pobrania koniec--->
+			<section class="do-pobrania">
+				<div class="container">
+					<div class="title-do-pobrania col-xs-12">
+						Uchwały i sprawozdania
+					</div>
+					<div class="col-xs-12 do-pobrania-lista no-padding">
+						<!--single-1-->
+						<div class="do-pobrania-single col-xs-12 no-padding">
+							<div class="do-pobrania-single-inner col-xs-12">
+								<div class="col-xs-12 col-sm-12 col-md-6 do-pobrania-single-nazwa">
+									<div class="col-xs-2 col-sm-1">
+										<img src="images/pdf-document.png" alt="file-icon"/>
+									</div>
+									
+									<div class="col-xs-10 col-sm-11 do-pobrania-single-nazwa-1 MBT5">22.06.2015 Statut ZPP</div>
+								</div>
+								<div class="col-xs-6 col-sm-4 col-md-2 .mTop5 do-pobrania-single-data alignC MBT5">
+									22.06.2015
+								</div>
+								<div class="col-xs-6 col-sm-4 col-md-2 .mTop5 do-pobrania-single-rozmiar alignC MBT5">
+									3KM
+								</div>
+								<div class="col-xs-12 col-sm-4 col-md-2 .mTop5 do-pobrania-single-pobierz alignC MBT5">
+									<a href="#">Pobierz plik</a>
+								</div>
+							</div>
+						</div>
+						<!--single-2-->
+						<div class="do-pobrania-single col-xs-12 no-padding">
+							<div class="do-pobrania-single-inner col-xs-12">
+								<div class="col-xs-12 col-sm-12 col-md-6 do-pobrania-single-nazwa">
+									<div class="col-xs-2 col-sm-1">
+										<img src="images/pdf-document.png" alt="file-icon"/>
+									</div>
+									
+									<div class="col-xs-10 col-sm-11 do-pobrania-single-nazwa-1 MBT5">22.06.2015 Statut ZPP</div>
+								</div>
+								<div class="col-xs-6 col-sm-4 col-md-2 .mTop5 do-pobrania-single-data alignC MBT5">
+									22.06.2015
+								</div>
+								<div class="col-xs-6 col-sm-4 col-md-2 .mTop5 do-pobrania-single-rozmiar alignC MBT5">
+									3KM
+								</div>
+								<div class="col-xs-12 col-sm-4 col-md-2 .mTop5 do-pobrania-single-pobierz alignC MBT5">
+									<a href="#">Pobierz plik</a>
+								</div>
+							</div>
+						</div>
+						<!--single-2-->
+						<div class="do-pobrania-single col-xs-12 no-padding">
+							<div class="do-pobrania-single-inner col-xs-12">
+								<div class="col-xs-12 col-sm-12 col-md-6 do-pobrania-single-nazwa">
+									<div class="col-xs-2 col-sm-1">
+										<img src="images/pdf-document.png" alt="file-icon"/>
+									</div>
+									
+									<div class="col-xs-10 col-sm-11 do-pobrania-single-nazwa-1 MBT5">22.06.2015 Statut ZPP</div>
+								</div>
+								<div class="col-xs-6 col-sm-4 col-md-2 .mTop5 do-pobrania-single-data alignC MBT5">
+									22.06.2015
+								</div>
+								<div class="col-xs-6 col-sm-4 col-md-2 .mTop5 do-pobrania-single-rozmiar alignC MBT5">
+									3KM
+								</div>
+								<div class="col-xs-12 col-sm-4 col-md-2 .mTop5 do-pobrania-single-pobierz alignC MBT5">
+									<a href="#">Pobierz plik</a>
+								</div>
+							</div>
+						</div>
+						<!--zwijamy!!!!-->
+						<div class="do-pobrania-zwijamy col-xs-12 no-padding">
+							<div class="do-pobrania-zwijamy-lista col-xs-12 no-padding">
+								<!--single-4-->
+								<div class="do-pobrania-single col-xs-12 no-padding">
+									<div class="do-pobrania-single-inner col-xs-12">
+										<div class="col-xs-12 col-sm-12 col-md-6 do-pobrania-single-nazwa">
+											<div class="col-xs-2 col-sm-1">
+												<img src="images/pdf-document.png" alt="file-icon"/>
+											</div>
+											
+											<div class="col-xs-10 col-sm-11 do-pobrania-single-nazwa-1 MBT5">22.06.2015 Statut ZPP</div>
+										</div>
+										<div class="col-xs-6 col-sm-4 col-md-2 .mTop5 do-pobrania-single-data alignC MBT5">
+											22.06.2015
+										</div>
+										<div class="col-xs-6 col-sm-4 col-md-2 .mTop5 do-pobrania-single-rozmiar alignC MBT5">
+											3KM
+										</div>
+										<div class="col-xs-12 col-sm-4 col-md-2 .mTop5 do-pobrania-single-pobierz alignC MBT5">
+											<a href="#">Pobierz plik</a>
+										</div>
+									</div>
+								</div>
+								<!--single-5-->
+								<div class="do-pobrania-single col-xs-12 no-padding">
+									<div class="do-pobrania-single-inner col-xs-12">
+										<div class="col-xs-12 col-sm-12 col-md-6 do-pobrania-single-nazwa">
+											<div class="col-xs-2 col-sm-1">
+												<img src="images/pdf-document.png" alt="file-icon"/>
+											</div>
+											
+											<div class="col-xs-10 col-sm-11 do-pobrania-single-nazwa-1 MBT5">22.06.2015 Statut ZPP</div>
+										</div>
+										<div class="col-xs-6 col-sm-4 col-md-2 .mTop5 do-pobrania-single-data alignC MBT5">
+											22.06.2015
+										</div>
+										<div class="col-xs-6 col-sm-4 col-md-2 .mTop5 do-pobrania-single-rozmiar alignC MBT5">
+											3KM
+										</div>
+										<div class="col-xs-12 col-sm-4 col-md-2 .mTop5 do-pobrania-single-pobierz alignC MBT5">
+											<a href="#">Pobierz plik</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div  class="do-pobrania-zwijamy-more col-xs-12">
+								Zobacz więcej <span class="glyphicon glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--do pobrania koniec--->
+			<section class="do-pobrania">
+				<div class="container">
+					<div class="title-do-pobrania col-xs-12">
+						Uchwały i sprawozdania
+					</div>
+					<div class="col-xs-12 do-pobrania-lista no-padding">
+						<!--single-1-->
+						<div class="do-pobrania-single col-xs-12 no-padding">
+							<div class="do-pobrania-single-inner col-xs-12">
+								<div class="col-xs-12 col-sm-12 col-md-6 do-pobrania-single-nazwa">
+									<div class="col-xs-2 col-sm-1">
+										<img src="images/pdf-document.png" alt="file-icon"/>
+									</div>
+									
+									<div class="col-xs-10 col-sm-11 do-pobrania-single-nazwa-1 MBT5">22.06.2015 Statut ZPP</div>
+								</div>
+								<div class="col-xs-6 col-sm-4 col-md-2 .mTop5 do-pobrania-single-data alignC MBT5">
+									22.06.2015
+								</div>
+								<div class="col-xs-6 col-sm-4 col-md-2 .mTop5 do-pobrania-single-rozmiar alignC MBT5">
+									3KM
+								</div>
+								<div class="col-xs-12 col-sm-4 col-md-2 .mTop5 do-pobrania-single-pobierz alignC MBT5">
+									<a href="#">Pobierz plik</a>
+								</div>
+							</div>
+						</div>
+						<!--single-2-->
+						<div class="do-pobrania-single col-xs-12 no-padding">
+							<div class="do-pobrania-single-inner col-xs-12">
+								<div class="col-xs-12 col-sm-12 col-md-6 do-pobrania-single-nazwa">
+									<div class="col-xs-2 col-sm-1">
+										<img src="images/pdf-document.png" alt="file-icon"/>
+									</div>
+									
+									<div class="col-xs-10 col-sm-11 do-pobrania-single-nazwa-1 MBT5">22.06.2015 Statut ZPP</div>
+								</div>
+								<div class="col-xs-6 col-sm-4 col-md-2 .mTop5 do-pobrania-single-data alignC MBT5">
+									22.06.2015
+								</div>
+								<div class="col-xs-6 col-sm-4 col-md-2 .mTop5 do-pobrania-single-rozmiar alignC MBT5">
+									3KM
+								</div>
+								<div class="col-xs-12 col-sm-4 col-md-2 .mTop5 do-pobrania-single-pobierz alignC MBT5">
+									<a href="#">Pobierz plik</a>
+								</div>
+							</div>
+						</div>
+						<!--single-2-->
+						<div class="do-pobrania-single col-xs-12 no-padding">
+							<div class="do-pobrania-single-inner col-xs-12">
+								<div class="col-xs-12 col-sm-12 col-md-6 do-pobrania-single-nazwa">
+									<div class="col-xs-2 col-sm-1">
+										<img src="images/pdf-document.png" alt="file-icon"/>
+									</div>
+									
+									<div class="col-xs-10 col-sm-11 do-pobrania-single-nazwa-1 MBT5">22.06.2015 Statut ZPP</div>
+								</div>
+								<div class="col-xs-6 col-sm-4 col-md-2 .mTop5 do-pobrania-single-data alignC MBT5">
+									22.06.2015
+								</div>
+								<div class="col-xs-6 col-sm-4 col-md-2 .mTop5 do-pobrania-single-rozmiar alignC MBT5">
+									3KM
+								</div>
+								<div class="col-xs-12 col-sm-4 col-md-2 .mTop5 do-pobrania-single-pobierz alignC MBT5">
+									<a href="#">Pobierz plik</a>
+								</div>
+							</div>
+						</div>
+						<!--zwijamy!!!!-->
+						<div class="do-pobrania-zwijamy col-xs-12 no-padding">
+							<div class="do-pobrania-zwijamy-lista col-xs-12 no-padding">
+								<!--single-4-->
+								<div class="do-pobrania-single col-xs-12 no-padding">
+									<div class="do-pobrania-single-inner col-xs-12">
+										<div class="col-xs-12 col-sm-12 col-md-6 do-pobrania-single-nazwa">
+											<div class="col-xs-2 col-sm-1">
+												<img src="images/pdf-document.png" alt="file-icon"/>
+											</div>
+											
+											<div class="col-xs-10 col-sm-11 do-pobrania-single-nazwa-1 MBT5">22.06.2015 Statut ZPP</div>
+										</div>
+										<div class="col-xs-6 col-sm-4 col-md-2 .mTop5 do-pobrania-single-data alignC MBT5">
+											22.06.2015
+										</div>
+										<div class="col-xs-6 col-sm-4 col-md-2 .mTop5 do-pobrania-single-rozmiar alignC MBT5">
+											3KM
+										</div>
+										<div class="col-xs-12 col-sm-4 col-md-2 .mTop5 do-pobrania-single-pobierz alignC MBT5">
+											<a href="#">Pobierz plik</a>
+										</div>
+									</div>
+								</div>
+								<!--single-5-->
+								<div class="do-pobrania-single col-xs-12 no-padding">
+									<div class="do-pobrania-single-inner col-xs-12">
+										<div class="col-xs-12 col-sm-12 col-md-6 do-pobrania-single-nazwa">
+											<div class="col-xs-2 col-sm-1">
+												<img src="images/pdf-document.png" alt="file-icon"/>
+											</div>
+											
+											<div class="col-xs-10 col-sm-11 do-pobrania-single-nazwa-1 MBT5">No cześć!</div>
+										</div>
+										<div class="col-xs-6 col-sm-4 col-md-2 .mTop5 do-pobrania-single-data alignC MBT5">
+											22.06.2015
+										</div>
+										<div class="col-xs-6 col-sm-4 col-md-2 .mTop5 do-pobrania-single-rozmiar alignC MBT5">
+											3KM
+										</div>
+										<div class="col-xs-12 col-sm-4 col-md-2 .mTop5 do-pobrania-single-pobierz alignC MBT5">
+											<a href="#">Pobierz plik</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div  class="do-pobrania-zwijamy-more col-xs-12">
+								Zobacz więcej <span class="glyphicon glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--do pobrania koniec--->
+			<footer>
+				<section id="top2">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-2 logo">
+								<img src="images/logo.png" alt="logo"/>
+							</div>
+							<div class="col-xs-10 logo">
+							</div>
+								<span class="inner">
+									<div class="go-top col-xs-6 col-sm-2">
+										<a href="#" class="transition_0_5" id="go-top"> Do góry</a>
+									</div>
+									<ul class="menu-bottom hidden-xs col-sm-10">
+										<li class="active"><a href="#">ZPP</a></li>
+										<li><a href="#">AKTUALNOŚCI</a></li>
+										<li><a href="#">Materiały</a></li>
+										<li><a href="#">Projekty</a></li>
+										<li><a href="#">Wydarzenia</a></li>
+										<li><a href="#">Kontakt</a></li>
+									</ul>
+								
+								</span>
+							
+						</div>
+						<div class="row">
+							<div class="col-xs-12 col-sm-6">
+								<div class="social">
+								<div class="social-text"><span>Zobacz nas na:</span></div>
+								<ul class="social-list">
+									<li><a href="#"><img class="transition_0_5 social2" src="images/social/yt.png"></a></li>
+									<li><a href="#"><img class="transition_0_5 social2" src="images/social/link.png"></a></li>
+									<li><a href="#"><img class="transition_0_5 social2" src="images/social/fb.png"></a></li>
+								</ul>
+							</div>
+							</div>
+							<div class="col-xs-12 col-sm-6">
+							
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="lower2">
+					<div class="container">
+						<div class="col-xs-12 col-sm-6 lower2-left">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada sem nunc.<br/>
+							Vestibulum a aliquam nibh. Quisque nec tortor velit. Suspendisse potenti.<br/>
+							Duis a nulla bibendum, aliquam arcu quis, mattis.
+						</div>
+						<div class="col-xs-12 col-sm-6 lower2-right">
+							<div class="lower2-right-inner">
+								<div>Projekt i realizacja: <a  class="transition_0_5" href="http://laboratoriumartystyczne.pl">Laboratorium Artystyczne</a></div>
+								<div>Oprogramowanie: <a  class="transition_0_5" href="http://blackwolfcms.pl">Black Wolf CMS</a></div>
+							</div>
+							<div class="icons">
+								<img src="images/LA.png"/>
+								<img src="images/BW.png"/>
+							</div>
+						</div>
+					</div>
+				</section>	
+			</footer>
+		</SECTION>
+	</BODY>
+</html>
